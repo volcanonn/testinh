@@ -1,18 +1,18 @@
+---
 web:
   servers:
-    -   id: server1
+    - id: server1
       listen:
-        -   "127.0.0.1:1521"
-
+        - 127.0.0.1:1521
 services:
-  -   listeners:
-      -   type: websocket-stream
+  - listeners:
+      - type: websocket-stream
         web_server: server1
-        path: "/Voe5CmFFnUs8uynEcydxHe5vhaTdED1R"
-      -   type: websocket-packet
+        path: /Voe5CmFFnUs8uynEcydxHe5vhaTdED1R
+      - type: websocket-packet
         web_server: server1
-        path: "/aZZ6b0Gutg6j6MWAdbP5RoYkvY6p2Z1f"
+        path: /aZZ6b0Gutg6j6MWAdbP5RoYkvY6p2Z1f
     keys:
-      -   id: 1
+      - id: 1
         cipher: chacha20-ietf-poly1305
         secret: Bh4zOTxn1Ay1Tt2OvQYRFl
