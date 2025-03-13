@@ -13,6 +13,6 @@ services:
         web_server: server1
         path: /aZZ6b0Gutg6j6MWAdbP5RoYkvY6p2Z1f
     keys:
-      - id: 1
+      - id: 0
         cipher: chacha20-ietf-poly1305
         secret: Bh4zOTxn1Ay1Tt2OvQYRFl
